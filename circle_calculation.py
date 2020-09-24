@@ -1,12 +1,13 @@
 # coding:utf-8
 '''
-    圆的周长和面积
+    -计算圆的周长和面积
+    -提示用户输入半径（23）
 '''
-
 import math
 
-radius = 23
-perimeter = math.pi * radius * 2
+radius = float(input("Enter the radius of circle: "))  // 参考老师的答案做了修改
+circumference = math.pi * radius * 2
 area = math.pi * radius * radius
-print(round(perimeter, 2))
-print(round(area, 2))
+
+print('The circumference is :', round(circumference, 2))
+print('The area is :', round(area, 2))
