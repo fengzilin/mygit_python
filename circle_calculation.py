@@ -5,7 +5,7 @@
 '''
 import math
 
-radius = float(input("Enter the radius of circle: "))  // 参考老师的答案做了修改
+radius = float(input("Enter the radius of circle: "))  # 参考老师的答案做了修改
 circumference = math.pi * radius * 2
 area = math.pi * radius * radius
 
