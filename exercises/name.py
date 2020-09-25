@@ -3,8 +3,8 @@
     Your name and age.
     filename: name.py
 '''
-name = input("What is your name?")
-age = input("How old are you?")
+name = input("What is your name? ")
+age = input("How old are you? ")
 after_ten = int(age) + 10
 
 print("Your name is:", name)
