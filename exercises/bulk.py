@@ -1,11 +1,12 @@
-# conding:utf-8
+# conding: utf-8
 '''
-    圆柱体的体积
+    计算圆柱体的体积
 '''
 
 import math
 
-radius = 11
-high = 98
+radius = int(input('Enter the radius of the cylinder: '))
+high = int(input('Enter the high of the cylinder: '))
 bulk = math.pi * radius * radius * high
-print(bulk)
+
+print('The bulk of cylinder is: ', round(bulk, 2))
